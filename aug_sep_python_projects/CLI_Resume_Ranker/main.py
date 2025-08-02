@@ -21,7 +21,7 @@ try:
     }
     matched=[]
     pdfpath=input('Enter the path of the pdf file:-   ')
-    newpath=shutil.move(pdfpath,os.getcwd()+'\\CLI_Resume_Ranker\\Uploads')
+    newpath=shutil.move(pdfpath,os.getcwd()+'\\aug_sep_python_projects\\CLI_Resume_Ranker\\Uploads')
     print('Successfully uploaded the file in the server!!!')
     allpages=pdf.PdfReader(newpath)
     text=''
